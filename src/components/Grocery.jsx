@@ -6,12 +6,12 @@ export const Grocery = ()=>{
     const [grocery, setGrocery] = useState([])
     
     const addgros = (data)=>{
-        const t = {
+        const payload = {
             id: nanoid(),
             title:data,
             status: false,
         }
-        setGrocery([...grocery,t])
+        setGrocery([...grocery,payload])
     }
     const dlt = (id)=>{
         const del = grocery.filter((ele)=>{return ele.id !== id})

@@ -22,7 +22,7 @@ export const GroceryInput =({addgros})=>{
                 }
                 
             }}
-            >Add Items</button>
+            >Add </button>
         </div>
     )
 }
